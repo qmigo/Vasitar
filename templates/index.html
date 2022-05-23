@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block pageContent %}
 {% load static %}
+<div class="background container-fluid"></div>
 <div class="moving-header">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
@@ -51,16 +52,21 @@
       </div>
 </div>
 
-<div class="introduction py-3">
+<div class="introduction py-5">
     <h5>Vasitars</h5>
     <h1>Welcome to Our Website</h1>
-    <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="underline pb-5">
+      <div class="left"></div>
+      <div class="middle"></div>
+      <div class="right"></div>
+    </div>
+    <div class="container col-xxl-8 px-4 pb-3">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pb-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="/static/pipeline.jpg" class="d-block mx-lg-auto img-fluid heroes-image" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+            <h1 class="display-5 fw-bold lh-1 mb-3">Introduction</h1>
             <p ><b>Vasitars Private Limited</b> is a technology based company founded by alumni of IIT Bhubaneswar. The company is governed by faculty members of Indian Institute of Technology (IIT) and Industry experts from diverse background in Pipeline technology. We are the <b>first Indian Company to provide “Complete in-situ Composite Repair Solutions”</b> to all kind of damage scenarios in transmission pipelines by using our Patent Registered innovation “Nano Filler Reinforced Polymer Composite Wrap to Repair Corroded Pipelines”. Our products are designed to provide structural reinforcement, leak repair, and corrosion prevention for pipelines and industrial pipe-works. Vasitars’ Solution rehabilitate strength of pipeline which is as good as the new pipe, allowing you to continue with your operations with same confidence as compared to replaced pipe with the new one. <a href="" style="text-decoration:none;">Read more...</a></p>
             <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
@@ -71,9 +77,119 @@
       </div>
 </div>
 
-<div class="client py-3">
-    <h1 class="display-5 fw-bold pb-3">Our Client</h1>
-    <div class="logo-container container">
+<div class="quotation">
+  
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active ">
+        <h2 class="text-center text-white mt-5 pt-4 mx-auto h-25">Vision Statement</h2>
+        <p class="text-white text-center h3 my-4 py-3 h-75 container">
+          To become leader in the area of Indian Structure Repairing Solution by inventing, testing and implementing low cost and high efficient technological solutions using the most competent and innovative professionals</p>
+      </div>
+      <div class="carousel-item">
+        <h2 class="text-center text-white mt-5 pt-4 mx-auto h-25">Mission Statement</h2>
+        
+        <p class="text-white text-center h3 my-4 py-3 h-75 container">
+          We strive to offer our client transmission pipeline repair solution which is as efficient as new pipeline at the cost of repair
+        </p>
+      </div>
+      <div class="carousel-item">
+        <h2 class="text-center text-white mt-5 pt-4 mx-auto h-25">Core Values</h2>
+        
+        <p class="text-white text-center h3 my-4 py-3 h-75 container">
+          
+          E- Excellence in delivery
+          <br>
+          C- Client Satisfaction
+          <br>
+          H – Honesty
+          <br>
+          E – Empathetic
+          <br>
+          R - Responsible
+          <br>
+        </p>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<div class="products py-5">
+  <h1 class="display-5 fw-bold text-center">Our Products</h1>
+  <div class="underline pb-5">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+  </div>
+  <div class="products-container container">
+    <div class="card" style="width: 19rem;">
+      <img src="/static/products/vlr301a.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">VLR - 301</h5>
+        <p class="card-text">Designed to repair through wall defect of any shape and area.<a href=""> Read More...</a></p>
+      </div>
+    </div>
+    <div class="card" style="width: 19rem;">
+      <img src="/static/products/vr101.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">VR - 101</h5>
+        <p class="card-text">Uniquely designed for HIGH PRESSURE transmission pipeline providing high strength.<a href=""> Read More...</a></p>
+      </div>
+    </div>
+    <div class="card" style="width: 19rem;">
+      <img src="/static/products/vr301a.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">VR - 301</h5>
+        <p class="card-text">Tailor-fit wet-lay system to work with unique and complex pipe geometries like bends, <a href=""> Read More...</a></p>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary my-4">All Products</button>
+</div>
+
+<div class="services py-5">
+  <h1 class="display-5 fw-bold text-center">Services Offered by Us</h1>
+  <div class="underline pb-5">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+  </div>
+  <div class="container pb-5">
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-dark rounded-3 shadow-lg" >
+          <h2>VASITARS REPAIR SOLUTIONS</h2>
+          <p>We offer our repair services for all kind of damage scenarios in transmission pipelines including leaking and non-leaking defects across all industries. With our patented methodology, material and experts, we promise quality repair of your pipeline. We have the capability to restore even the worst damaged pipelines. You can trust us for your repair needs.</p>
+          <button class="btn btn-outline-light" type="button">Read More</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 border rounded-3 shadow-lg bg-light">
+          <h2>VASITARS STRUCTURAL SOLUTIONS</h2>
+          <p>Heard about the benefits of FRP? Want to install a structure in your industries but don’t have experts to do so? Don’t worry. With our line of qualified technical experts in the field of FRP, we do provide consulting on designing and installing FRP based structures. We can take care of your FRP needs and deliver the product without you worrying about it..</p>
+          <button class="btn btn-outline-secondary" type="button">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div class="client py-5">
+    <h1 class="display-5 fw-bold pt-3 pb-2">Clientele</h1>
+    <div class="underline pb-5">
+      <div class="left"></div>
+      <div class="middle"></div>
+      <div class="right"></div>
+    </div>
+    <div class="logo-container container pb-5">
         <img src="/static/client/1.png" alt="" class="client-logo">
         <img src="/static/client/2.png" alt="" class="client-logo">
         <img src="/static/client/3.png" alt="" class="client-logo">
@@ -90,4 +206,7 @@
     </div>
     
 </div>
+
+
+
 {% endblock pageContent %}
