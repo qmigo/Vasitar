@@ -2,18 +2,34 @@
 {% block pageContent %}
 {% load static %}
 
+<div class="page-intro">
+  <h1 class="display-5 fw-bold text-center text-white">About Us</h1>
+  <img src="/static/learning_img.png" alt="" height="350px" width="600px" style="object-fit: contain;">
+</div>
 
+<div class="breadcrump-container pt-4 px-5">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">About Us</li>
+    </ol>
+  </nav>
+</div>
 <!-- section history -->
-<div class="px-4 py-5 mb-0 text-center ">
 
-    <img class="d-block mx-auto mb-4" src="{% static 'vasi.png' %}" alt="" >
+<div class="mx-5 py-5 my-5 text-center shadow-lg rounded-3 border company-history">
+  <img class="d-block mx-auto mb-4 logo-img" src="../static/vasi.png" alt="">
     <h1 class="display-5">Our History</h1>
     <div class="row mx-auto">
-        <p class="lead col-10 mx-auto my-4">
-            Vasitars Private Limited has been incorporated in India on <strong>18th Day of January 2017 (CIN U74999DL2O17PTC3L0759) </strong>with a target to bring innovation in the field of transmission pipeline repair. The seed of this organization was sown in summers of 2015, when three students of IIT Bhubaneswar started their research on use of composite materials in repair of transmission pipeline. The hard work and academic excellence of these three students under the guidance of academic and industry experts results into invention entitled "Nano Filler Reinforced Polymer Composite Wrap to Repair Corroded Pipelines". A patent application (201731007916) was filed to register the innovation under Patent Act in India. A team was created in 2016 of these three students accompanied by other students of IIT Bhubaneswar to study the market requirement. It was observed that there is huge scope of the invented technology in transmission pipeline. With the above observation and few initial pilot projects with Oil and Gas Companies and Water Resource Companies, Vasitars Private Limited was formally formed. Vasitars Private Limited collaborated with a leading Oil Marketing Company and further development of product was initiated at lab scale under mentorship of academician from IIT and industry experts from the Oil Marketing Companies.
-           </p>
-        <p class="lead col-10 mx-auto my-4 ">
+      
+        <p class="lead col mx-auto my-4">
+            Vasitars Private Limited has been incorporated in India on <strong>18th Day of January 2017 (CIN U74999DL2O17PTC3L0759) </strong>with a target to bring innovation in the field of transmission pipeline repair. The seed of this organization was sown in summers of 2015, 
+            when three students of IIT Bhubaneswar started their research on use of composite materials in repair of transmission pipeline.  
 
+            The hard work and academic excellence of these three students under the guidance of academic and industry 
+           </p>
+        <p class="lead col mx-auto my-4 ">
+          experts results into invention entitled "Nano Filler Reinforced Polymer Composite Wrap to Repair Corroded Pipelines".
             The product has been developed and tested on recommended standards listed under ISO, ASME and OSID. Satisfied with the lab test outcome, Vasitars Private Limited has launched the product at commercial levels. Research and upgrade of Product is very near to the heart of Vasitars’ leaders, thus research and product development is a continuous process in Vasitars.
         </p>
       
@@ -24,8 +40,8 @@
 
 <!-- Section: Timeline -->
 
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 shadow-lg rounded-3 border">
+  <div class="container col-xxl-8 px-4  ">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 my-5 shadow-lg rounded-3 border">
       <div class="col-10 col-sm-8 col-lg-6">
        
       <!-- Gallery -->
@@ -115,112 +131,149 @@
 
 
 <!-- team -->
-<div class="py-5 team4">
-  <div class="container">
-    <div class="row justify-content-center mb-4">
-      <div class="col-md-7 text-center">
-        <h3 class="mb-3">Experienced & Professional Team</h3>
-        <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
-      </div>
-    </div>
-    <div class="row">
-      <!-- column  -->
-      <div class="col-lg-3 mb-4">
-        <!-- Row -->
-        <div class="row">
-          <div class="col-md-12">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
-          </div>
-          <div class="col-md-12 text-center">
-            <div class="pt-2">
-              <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-              <h6 class="subtitle mb-3">Property Specialist</h6>
-              <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Row -->
-      </div>
-      <!-- column  -->
-      <!-- column  -->
-      <div class="col-lg-3 mb-4">
-        <!-- Row -->
-        <div class="row">
-          <div class="col-md-12">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
-          </div>
-          <div class="col-md-12 text-center">
-            <div class="pt-2">
-              <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-              <h6 class="subtitle mb-3">Property Specialist</h6>
-              <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Row -->
-      </div>
-      <!-- column  -->
-      <!-- column  -->
-      <div class="col-lg-3 mb-4">
-        <!-- Row -->
-        <div class="row">
-          <div class="col-md-12">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
-          </div>
-          <div class="col-md-12 text-center">
-            <div class="pt-2">
-              <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-              <h6 class="subtitle mb-3">Property Specialist</h6>
-              <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Row -->
-      </div>
-      <!-- column  -->
-      <!-- column  -->
-      <div class="col-lg-3 mb-4">
-        <!-- Row -->
-        <div class="row">
-          <div class="col-md-12">
-            <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
-          </div>
-          <div class="col-md-12 text-center">
-            <div class="pt-2">
-              <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-              <h6 class="subtitle mb-3">Property Specialist</h6>
-              <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Row -->
-      </div>
-    </div>
+<section class="team">
+  <div class="team-head">
+      <h3 class="display-6 ">Experienced and Professional Team</h3>
+      <p>
+          You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time
+      </p>
   </div>
-</div>
+
+  <div class="team-body">
+      <div class="body-wrapper">
+          <div class="wrapper-box">
+              <img src="https://www.vasitars.com/team/2.jpg" class="box-image" alt="">
+              <div class="box-content">
+                  <h5>Main Heading</h5>
+                  <h6>Sub Heading</h6>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eum perferendis cupiditate totam repellendus numquam?</p>
+              </div>
+              <div class="box-links">
+                  
+              </div>
+          </div>
+          <div class="wrapper-box">
+              <img src="https://www.vasitars.com/team/3.jpg" class="box-image" alt="">
+              <div class="box-content">
+                  <h5>Main Heading</h5>
+                  <h6>Sub Heading</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam commodi corrupti exercitationem quasi dignissimos soluta.</p>
+              </div>
+              <div class="box-links">
+                  
+              </div>
+          </div>
+          <div class="wrapper-box">
+              <img src="https://www.vasitars.com/team/4.jpg" class="box-image" alt="">
+              <div class="box-content">
+                  <h5>Main Heading</h5>
+                  <h6>Sub Heading</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam commodi corrupti exercitationem quasi dignissimos soluta.</p>
+              </div>
+              <div class="box-links">
+                  
+              </div>
+          </div>
+          <div class="wrapper-box">
+              <img src="https://www.vasitars.com/team/1.jpg" class="box-image" alt="">
+              <div class="box-content">
+                  <h5>Main Heading</h5>
+                  <h6>Sub Heading</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam commodi corrupti exercitationem quasi dignissimos soluta.</p>
+              </div>
+              <div class="box-links">
+                  
+              </div>
+          </div>
+          <div class="wrapper-box">
+              <img src="https://www.vasitars.com/team/5.jpg" class="box-image" alt="">
+              <div class="box-content">
+                  <h5>Main Heading</h5>
+                  <h6>Sub Heading</h6>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam commodi corrupti exercitationem quasi dignissimos soluta.</p>
+              </div>
+              <div class="box-links">
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="team-buttons">
+    <!-- <a href="" class="btn">Meet Our Mentors</a> -->
+    <a href="" class="btn btn-lg shadow border rounded-2 text-center">Visit Our Complete Team</a>
+  </div>
+</section>
+
+<script>
+
+  window.addEventListener('load',start)
+
+  function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+      
+  window.onscroll = ()=>{     
+        
+        let companyHistory= document.querySelector('.company-history')
+        let logoimg = companyHistory.getElementsByTagName('img')[0]
+
+        if(isInViewport(logoimg)==true)
+        {
+          
+        logoimg.style.transform='rotate(0deg) scale(1.1)'
+        
+
+        }
+        
+
+        else
+        logoimg.style.transform='rotate(30deg)'
+
+}
+
+
+
+let team_body = document.querySelector('.team-body')
+    team_body.addEventListener('mouseover',stop)
+    team_body.addEventListener('mouseout',start)
+    function start()
+{
+    time_id = setInterval(() => {
+        
+        let boxs = document.querySelectorAll('.wrapper-box')
+    
+        for (box of boxs)
+        {
+        box.classList.add('transit')
+        }
+        
+        let node = boxs[0]
+        setTimeout(()=>{
+    
+            for (box of boxs)
+            {
+                box.classList.remove('transit')
+            }
+    
+            node.parentNode.removeChild(node)
+            document.querySelector('.body-wrapper').appendChild(node)
+    
+        },1000)
+    
+    }, 1500);
+}
+
+function stop()
+{
+    clearInterval(time_id)
+}
+</script>
 
 {% endblock pageContent %}

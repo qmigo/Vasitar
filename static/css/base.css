@@ -2,6 +2,80 @@
     margin: 0;
     padding: 0;
 }
+.loader-container{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0270ad;
+    z-index: 1000000000000000;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+.box{
+    background-color: #ee4a52;
+}
+.box1{
+    visibility: hidden;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    outline: 1px solid black;
+    animation: lighting 1s  linear 5s infinite;
+    
+}
+.box2{
+    visibility: hidden;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    outline: 1px solid black;
+    animation: lighting 500ms linear infinite;
+}
+.box3{
+    visibility: hidden;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    height: 140px;
+    width: 140px;
+    outline: 1px solid black;
+    margin: 5px;
+    animation: lighting 500ms linear infinite;
+}
+.box4{
+    visibility: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 120px;
+    width: 120px;
+    outline: 1px solid black;
+    margin: 5px;
+    animation: lighting 1s linear infinite;
+
+}
+
+@keyframes lighting {
+    0%{visibility: hidden;}
+    50%{visibility: visible;}
+    100%{visibility: hidden;}
+
+}
+
 header{
     position: sticky;
     top: 0;
